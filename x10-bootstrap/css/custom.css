@@ -1,0 +1,69 @@
+/*
+* Author: lecaoquochung
+* Template: X10-Satelite
+* Version: 1.0
+* Email: lecaoquochung@gmail.com
+*/
+body {
+	padding-top:50px;
+}
+
+#masthead {
+	min-height:100px;
+}
+
+#masthead h1 {
+	font-size: 20px;
+	line-height: 1;
+  	padding-top:20px;
+}
+
+h2 {
+	font-size: 20px;
+}
+
+h3 {
+	font-size: 15px;
+}
+
+h4 {
+	font-size: 12px;
+}
+
+#masthead .well {
+	margin-top:8%;
+}
+
+@media screen and (min-width: 768px) {
+	#masthead h1 {
+		font-size: 40px;
+	}
+}
+
+.navbar-bright {
+	background-color:#111155;
+    color:#fff;
+}
+
+.affix-top,.affix{
+	position: static;
+}
+
+@media (min-width: 979px) {
+  #sidebar.affix-top {
+    position: static;
+  	margin-top:30px;
+  	width:228px;
+  }
+  
+  #sidebar.affix {
+    position: fixed;
+    top:70px;
+    width:228px;
+  }
+}
+
+#sidebar li.active {
+  	border:0 #eee solid;
+  	border-right-width:4px;
+}
