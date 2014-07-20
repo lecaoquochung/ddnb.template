@@ -128,7 +128,7 @@ header.fixed_nav {
 }
 
 .cta a {
-	float: right;
+	align: right;
 	padding: 17px 60px;
 	text-decoration: none;
 	font-family: arial;
