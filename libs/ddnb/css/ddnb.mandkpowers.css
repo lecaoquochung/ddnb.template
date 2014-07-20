@@ -128,7 +128,6 @@ header.fixed_nav {
 }
 
 .cta a {
-	align: right;
 	padding: 17px 60px;
 	text-decoration: none;
 	font-family: arial;
@@ -136,6 +135,7 @@ header.fixed_nav {
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	margin: 20px 40px 0 0;
+	float: right;
 }
 
 .cta_top {
