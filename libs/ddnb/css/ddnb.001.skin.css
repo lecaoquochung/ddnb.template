@@ -6,16 +6,16 @@ ul.meta-post li a:hover, ul.cat li a:hover, ul.recent li h6 a:hover, ul.portfoli
 	color:#1796c6;
 }
 
-.navbar-brand span .logo-position-one{
+.navbar-brand .logo-position-one{
 	color: #0000ff;
 }
-.navbar-brand span .logo-position-two{
+.navbar-brand .logo-position-two{
 	color: #38761d;
 }
-.navbar-brand span .logo-position-three{
+.navbar-brand .logo-position-three{
 	color: #ff0000;
 }
-.navbar-brand span .logo-position-four{
+.navbar-brand .logo-position-four{
 	color: #f1c232;
 }
 
