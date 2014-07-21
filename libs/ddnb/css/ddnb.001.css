@@ -8,8 +8,7 @@
 /* === custom icon === */
 @import url('custom-fonts.css');
 /* ==== overwrite bootstrap standard ==== */
-@import url('overwrite.css');
-@import url('animate.css');
+@import url('ddnb.001.overwrite.bootstrap.css');
 
 /* ===================================
 1. General
