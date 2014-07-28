@@ -34,6 +34,24 @@ h4 {
 	margin-top:8%;
 }
 
+/*--footer--*/
+.footer-bottom {
+	padding: 25px 0;
+	background: #303441;
+}
+.copy p {
+	color: #666D89;
+	font-size: 0.8125em;
+	line-height: 1.8em;
+	text-align: center;
+}
+.copy p a {
+	color: #FFF;
+}
+.copy p a:hover {
+	color: #1BBC9B;
+}
+
 @media screen and (min-width: 768px) {
 	#masthead h1 {
 		font-size: 40px;
