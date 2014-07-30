@@ -55,6 +55,21 @@ body > .header {
 	z-index: 1030;
 }
 
+/*body left & right*/
+.right-side, .left-side {
+	min-height: 100%;
+	display: block;
+}
+.right-side {
+	background-color: #f9f9f9;
+	margin-left: 220px;
+}
+.left-side {
+	position: absolute;
+	width: 220px;
+	top: 0;
+}
+
 /*------------------------------------
  5. componet
  -------------------------------------*/
