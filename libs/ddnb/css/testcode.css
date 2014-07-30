@@ -1,5 +1,5 @@
 /*------------------------------------------------------------------------------------------------------------
-/**
+ /**
  * testcode css
  *
  * @package		testcode.css
@@ -7,16 +7,39 @@
  * @license		http://www.opensource.org/licenses/mit-license.php The MIT License
  * @link		http://lecaoquochung.github.io/ddnb.template/libs/ddnb/css/testcode.css
  * @created		2014-07
--------------------------------------------------------------------------------------------------------------*/
+ -------------------------------------------------------------------------------------------------------------*/
 
 /*------------------------------------
-1. general
--------------------------------------*/
-
+ 1. general
+ -------------------------------------*/
+html, body {
+	overflow-x: hidden !important;
+	font-family: 'Source Sans Pro', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	min-height: 100%;
+	background: #f9f9f9;
+}
+a {
+	color: #3c8dbc;
+}
+a:hover, a:active, a:focus {
+	outline: none;
+	text-decoration: none;
+	color: #72afd2;
+}
 /*------------------------------------
  2. layout
  -------------------------------------*/
-
+.wrapper {
+	min-height: 100%;
+}
+.wrapper:before, .wrapper:after {
+	display: table;
+	content: " ";
+}
+.wrapper:after {
+	clear: both;
+}
 /*------------------------------------
  3. responsive
  -------------------------------------*/
@@ -24,11 +47,16 @@
 /*------------------------------------
  4. header
  -------------------------------------*/
-
+body > .header {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 1030;
 /*------------------------------------
  footer
  -------------------------------------*/
-.footer {
+	.footer {
 	padding: 70px 0;
 	margin-top: 70px;
 	border-top: 1px solid #e5e5e5;
