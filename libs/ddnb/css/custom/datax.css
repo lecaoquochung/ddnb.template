@@ -1,0 +1,25 @@
+/*------------------------------------------------------------------------------------------------------------
+ * Data X custom css
+ *
+ * @package		custom_data_x.css
+ * @author		ddnb_admin <admin@ddnb.info>
+ * @license		http://www.opensource.org/licenses/mit-license.php The MIT License
+ * @link		http://lecaoquochung.github.io/ddnb.template/libs/ddnb/css/custom/datax.css
+ * @created		2014-08
+ -------------------------------------------------------------------------------------------------------------*/
+
+/*------------------------------------
+pagination: replate system default
+ -------------------------------------*/
+.pagination>.current>a, 
+.pagination>.current>span, 
+.pagination>.current>a:hover, 
+.pagination>.current>span:hover, 
+.pagination>.current>a:focus, 
+.pagination>.current>span:focus {
+	z-index: 2;
+	color: #fff;
+	cursor: default;
+	background-color: #428bca;
+	border-color: #428bca;
+}
