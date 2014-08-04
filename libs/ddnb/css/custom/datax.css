@@ -11,12 +11,12 @@
 /*------------------------------------
 pagination: replate system default
  -------------------------------------*/
-.pagination> li .current>a, 
-.pagination> li .current>span, 
-.pagination> li .current>a:hover, 
-.pagination> li .current>span:hover, 
-.pagination> li .current>a:focus, 
-.pagination> li .current>span:focus {
+.pagination>li>span.current>a, 
+.pagination>li>span.current>span, 
+.pagination>li>span.current>a:hover, 
+.pagination>li>span.current>span:hover, 
+.pagination>li>span.current>a:focus, 
+.pagination>li>span.current>span:focus {
 	z-index: 2;
 	color: #fff;
 	cursor: default;
