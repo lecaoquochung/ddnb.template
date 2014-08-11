@@ -440,7 +440,8 @@ section.callaction {
 ==================================== */
 
 #inner-headline{
-	background:#252525;
+	/*background:#252525;*/
+	background:#68A4C4;
 	position:relative;
 	margin:0;
 	padding:0;
