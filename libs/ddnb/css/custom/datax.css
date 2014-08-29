@@ -18,3 +18,12 @@ pagination: replate system default
 	background-color: #428bca;
 	border-color: #428bca;
 }
+
+/*------------------------------------
+alert message: custom alert message
+ -------------------------------------*/
+.error {
+	color: #a94442;
+	background-color: #f2dede;
+	border-color: #ebccd1;
+}
