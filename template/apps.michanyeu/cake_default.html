@@ -1,0 +1,47 @@
+<?php
+ /*----------------------------------------------------------------------
+  * cake default template
+  * 
+  * @author: lecaoquochung@gmail.com
+  * @created 2015
+  *----------------------------------------------------------------------*/
+?>
+
+<!DOCTYPE html>
+<html>
+<head>
+	<?php echo $this->Html->charset(); ?>
+	<title>
+		<?php echo $title_for_layout; ?>
+	</title>
+	<?php
+		echo $this->fetch('meta');
+		echo $this->fetch('css');
+		echo $this->fetch('script');
+	?>
+	<!-- meta -->
+	<?php #echo $this->element('html/meta'); ?>
+	<!--css -->
+	<?php echo $this->Html->css('http://lecaoquochung.github.io/ddnb.template/libs/bootstrap/newest/css/bootstrap.css'); ?>
+	<?php echo $this->Html->css('/libs/fontawesome/4.2.0/css/font-awesome.min.css'); ?>
+	<?php echo $this->Html->css(array('http://lecaoquochung.github.io/ddnb.template/libs/ddnb/css/custom/datax.css')); ?>
+	<!--js -->
+	<?php
+		echo $this->Html->script(array(
+			'http://lecaoquochung.github.io/ddnb.template/libs/jquery/2.1.1/jquery-2.1.1.min.js',
+			'http://lecaoquochung.github.io/ddnb.template/libs/bootstrap/newest/js/bootstrap.js',
+		));
+	?>
+</head>
+<body class="skin-black" id="">
+	<?php #echo $this->element('header'); ?>
+	<div class="wrapper row-offcanvas row-offcanvas-left">
+		<!-- <aside class="left-side sidebar-offcanvas"><?php #echo $this -> element('navigation'); ?></aside> -->
+		<aside class="right-side">
+			<?php echo $this -> fetch('content'); ?>
+		</aside>
+	</div>
+	<?php #echo $this->element('footer'); ?>
+</body>
+<?php echo $this->element('sql_dump'); ?>
+</html>
