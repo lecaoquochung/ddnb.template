@@ -51,7 +51,7 @@ img {
 }
 #navigation ul {
 	display: inline-block;
-	width: 860px;
+	width: auto;
 	list-style: none;
 	margin: 0;
 	padding: 0;
