@@ -467,7 +467,8 @@ hr {
 #footer > div {
 	background-color: #ac9e94;
 	height: 48px;
-	width: 822px;
+	/*width: 822px;*/
+	width: auto;
 	border-bottom: 1px solid #72675f;
 	border-top: 1px solid #cdbeb2;
 	margin: 0 auto;
@@ -502,7 +503,7 @@ hr {
 }
 #footer p {
 	margin: 0;
-	text-align: center;
+	/*text-align: center;*/
 	text-transform: none;
 }
 /** Connect **/
