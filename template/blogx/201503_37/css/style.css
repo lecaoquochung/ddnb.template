@@ -18,7 +18,7 @@ img {
 }
 /*------------------------------ Sprites ------------------------------*/
 #navigation li, #navigation li a:hover, #navigation li.selected a {
-	background-image: url(../images/bg-menu.png);
+	/*background-image: url(../images/bg-menu.png);*/
 	background-repeat: repeat-x;
 }
 #contents div.box, #contents div.box > div, #contents div.body {
@@ -90,7 +90,7 @@ img {
 /*------------------------------ CONTENTS ------------------------------*/
 #contents {
 	display: inline-block;
-	width: 865px;
+	width: auto;
 	padding: 0 47px;
 }
 #contents h1 {
