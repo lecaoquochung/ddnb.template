@@ -320,7 +320,7 @@ p a, span a {
 
 #content div ul li a {
 	border: 1px solid #9db061;
-	float: left;
+	/*float: left;*/
 	height: 209px;
 	margin-right: 20px;
 	width: auto;
@@ -597,7 +597,7 @@ p a, span a {
 	display: block;
     float: none;
     height: auto;
-    min-height: 125px;
+    /*min-height: 125px;*/
     width: auto;
 }
 
