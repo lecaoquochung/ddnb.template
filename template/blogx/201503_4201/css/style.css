@@ -25,7 +25,7 @@ p a{
 .header div a#logo{
 	display:block;
 	height:110px;
-	width:254px;
+	width:auto;
 	float:left;
 }
 .header div a#logo img{
@@ -146,7 +146,8 @@ p a{
 
 /*-------------------------	Body --------------------------*/
 .body{
-	width:960px;
+	/*width:960px;*/
+	width:1080px;
 	margin:10px auto;
 	height:auto;
 	position:relative;
@@ -302,7 +303,7 @@ p a{
 	background:none;
 }
 .body .sidebar div{
-	width:138px;
+	width:200px;
 	font-family:arial;
 	font-size:14px;
 	padding: 15px 11px;
