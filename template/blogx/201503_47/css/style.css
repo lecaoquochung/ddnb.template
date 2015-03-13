@@ -236,8 +236,8 @@ p a {
 	float: left;
 	background: url(../images/divider.png) repeat-y right top;
 	min-height: 100px;
-	width: 700px;
-	padding-right: 24px;
+	width: 720px;
+	/*padding-right: 24px;*/
 }
 .main h1, .sidebar h1 {
 	margin: 0 0 12px;
