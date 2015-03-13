@@ -65,7 +65,7 @@ img {
 	display: block;
 	font: 15px/30px 'Play';
 	height: 20px;
-	width: 76px;
+	/*width: 76px;*/
 	padding-top: 68px;
 	text-decoration: none;
 	text-transform: uppercase;
@@ -86,8 +86,9 @@ img {
 }
 #navigation li {
 	float: left;
-	width: 160px;
+	width: auto;
 	text-align: center;
+	padding: 20px;
 }
 #navigation li a {
 	color: #818181;
@@ -147,7 +148,7 @@ img {
 /*------------------------------ CONTENTS ------------------------------*/
 #contents {
 	min-height: 510px;
-	width: 880px;
+	width: 1080px;
 	margin: 0 auto;
 	padding: 54px 40px;
 }
@@ -235,7 +236,7 @@ p a {
 	float: left;
 	background: url(../images/divider.png) repeat-y right top;
 	min-height: 100px;
-	width: 620px;
+	width: 700px;
 	padding-right: 24px;
 }
 .main h1, .sidebar h1 {
@@ -251,7 +252,7 @@ p a {
 .sidebar {
 	float: left;
 	min-height: 848px;
-	width: 216px;
+	width: 320px;
 	margin-left: 20px;
 }
 .sidebar ul, .news {
