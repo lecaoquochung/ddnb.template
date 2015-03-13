@@ -252,7 +252,7 @@ p a {
 .sidebar {
 	float: left;
 	min-height: 848px;
-	width: 320px;
+	width: 250px;
 	margin-left: 20px;
 }
 .sidebar ul, .news {
@@ -280,7 +280,7 @@ p a {
 }
 .posts li {
 	border-bottom: 1px solid #d5d5d5;
-	padding: 24px 10px 0;
+	padding: 10px 10px 0;
 }
 .posts li p {
 	font-size: 14px;
