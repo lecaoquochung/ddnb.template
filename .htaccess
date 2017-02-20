@@ -1,0 +1,4 @@
+AuthUserFile "/home/.htpasswd"
+AuthType Basic
+AuthName "[ddnb projects]"
+require valid-user
